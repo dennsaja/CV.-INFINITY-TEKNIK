@@ -16,7 +16,7 @@ router.get("/sitemap.xml", (req, res) => {
       <priority>1.0</priority>
     </url>
     <url>
-      <loc>https://infinityteknik.net/tentang</loc>
+      <loc>https://infinityteknik.net/paket</loc>
       <priority>0.5</priority>
     </url>
   </urlset>`;
@@ -26,5 +26,6 @@ router.get("/sitemap.xml", (req, res) => {
 
 
 module.exports = router;
+
 
 
